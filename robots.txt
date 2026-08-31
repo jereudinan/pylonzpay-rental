@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jereudinan.github.io/pylonzpay-rental/sitemap.xml
