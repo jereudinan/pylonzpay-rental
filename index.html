@@ -275,12 +275,34 @@
 
     <footer>
       <div class="footer-shell">
-        <div class="footer-brand"><img src="assets/logo/pylonz_logo_03.png" alt="PYLONZ" /><p>월세 생활을 더 유연하게</p></div>
-        <div class="footer-links"><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">고객센터</a></div>
-        <div class="company-info"><p>주식회사 파일론즈 <span>대표 홍길동</span> <span>사업자등록번호 000-00-00000</span></p><p>서울특별시 ○○구 ○○로 00 <span>고객센터 0000-0000</span> <span>help@example.com</span></p><p class="placeholder-notice">※ 사업자 정보와 연락처는 샘플이며 정식 오픈 전 실제 정보로 교체됩니다.</p></div>
+        <div class="footer-brand"><img src="assets/logo/pylonz_logo_03.png" alt="PYLONZ" /></div>
+        <div class="footer-links">
+          <button type="button" data-document="terms">이용약관</button>
+          <button type="button" data-document="privacy">개인정보처리방침</button>
+          <a href="tel:15339861">고객센터</a>
+        </div>
+        <div class="company-info">
+          <p>주식회사 파일론즈 <span>대표 이해령</span> <span>사업자등록번호 114-87-22852</span></p>
+          <p>경기도 안양시 동안구 벌말로123(관양동, 평촌스마트베이) 2009호, 2010호</p>
+          <p>고객센터 <a href="tel:15339861">1533-9861</a>, <a href="tel:0234822085">02-3482-2085</a> <span>e-Mail <a href="mailto:phb@somunnanshop.com">phb@somunnanshop.com</a></span></p>
+        </div>
+        <div class="social-links" aria-label="PYLONZ 소셜 미디어">
+          <a href="https://www.instagram.com/pylonz.pay/" target="_blank" rel="noopener noreferrer" aria-label="PYLONZ 인스타그램 새 창에서 열기"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle class="fill-dot" cx="17.4" cy="6.7" r="1.1"/></svg></a>
+          <a href="https://www.youtube.com/@pylonzpay/shorts" target="_blank" rel="noopener noreferrer" aria-label="PYLONZ 유튜브 새 창에서 열기"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.2 7.1a2.9 2.9 0 0 0-2-2C17.5 4.6 12 4.6 12 4.6s-5.5 0-7.2.5a2.9 2.9 0 0 0-2 2A30 30 0 0 0 2.3 12a30 30 0 0 0 .5 4.9 2.9 2.9 0 0 0 2 2c1.7.5 7.2.5 7.2.5s5.5 0 7.2-.5a2.9 2.9 0 0 0 2-2 30 30 0 0 0 .5-4.9 30 30 0 0 0-.5-4.9Z"/><path class="fill-play" d="m10 15.4 5-3.4-5-3.4v6.8Z"/></svg></a>
+          <a href="https://blog.naver.com/pylonz" target="_blank" rel="noopener noreferrer" aria-label="PYLONZ 네이버 블로그 새 창에서 열기"><span class="naver-icon" aria-hidden="true">N</span></a>
+          <a href="https://www.facebook.com/people/%ED%95%84%EB%A1%A0%EC%A6%88/61587320195229/" target="_blank" rel="noopener noreferrer" aria-label="PYLONZ 페이스북 새 창에서 열기"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill-brand" d="M14 21v-8h2.7l.4-3H14V8.1c0-.9.3-1.5 1.6-1.5h1.7V4a23 23 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3V10H8v3h2.6v8H14Z"/></svg></a>
+        </div>
         <p class="copyright">© 2026 PYLONZ Inc. All rights reserved.</p>
       </div>
     </footer>
+
+    <dialog class="legal-dialog" id="legal-dialog" aria-labelledby="legal-title">
+      <div class="legal-dialog-head">
+        <h2 id="legal-title"></h2>
+        <button class="legal-close" type="button" aria-label="팝업 닫기">×</button>
+      </div>
+      <div class="legal-content" id="legal-content" tabindex="0"><p>문서를 불러오는 중입니다.</p></div>
+    </dialog>
 
     <a class="floating-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSfmHGpMIOm8zBjg7a1umPE40XikmoNnwWJ6_ThOR9bjD7tC5A/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer"><span class="floating-icon">✦</span><span><small>궁금한 점이 있나요?</small><strong>상담 신청</strong></span></a>
     <script src="script.js"></script>
